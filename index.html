@@ -71,7 +71,7 @@
             </div>
             <div class="col text-right">
               <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-none">
-                <li class="has-children">
+               <!--<li class="has-children">
                   <a href="#home-section" class="nav-link">Home</a>
                   <ul class="dropdown">
                     <li>
@@ -90,17 +90,26 @@
                       <a href="index-right-menu.html">Right Menu</a>
                     </li>
                   </ul>
-                </li>
-                <li><a href="Web-section" class="nav-link">Portfolio</a></li>
-                <li><a href="#visual-section" class="nav-link">visual</a></li>
+                </li>-->
+                <li><a href="#home-section" class="nav-link">Main</a></li>
                 <li><a href="#about-section" class="nav-link">About</a></li>
                 <!--<li><a href="#skills-section" class="nav-link">Skills</a></li>-->
-                <li><a href="#Contact-section" class="nav-link">Contact</a></li>
+                <li class="has-children">
+                <a href="#portfolio-section" class="nav-link">Portfolio</a>
+                <ul class="dropdown">
+                    <li>
+                      <a href="#web-section">Web</a>
+                    </li>
+                    <li>
+                      <a href="#visual-section">Visual</a>
+                    </li>                    
+                  </ul>                
+                </li>
+                <li><a href="#epilogue-section" class="nav-link">Epilogue</a></li>
                 <!--
                 <li><a href="#journal-section" class="nav-link">Journal</a></li>
                 <li><a href="#contact-section" class="nav-link">Contact</a></li>-->
-              </ul>
-              
+              </ul>              
               <a href="#" class="burger-toggle-menu js-burger-toggle-menu ml-auto py-4">
                 <span></span>
                 <span></span>
@@ -263,7 +272,7 @@
       <!-- END .cover-v1 -->
                  
 
-     <!--어바웃 프로필 영역_시작-->
+     <!--어바웃-프로필 영역_시작-->
       <div class="unslate_co--section" id="about-section">
         <div class="container">
                    
@@ -322,7 +331,7 @@
         </div>
       </div><!--어바웃 프로필 영역_끝-->
       
-<!--어바웃 스킬 영역_시작-->
+<!--어바웃-스킬 영역_시작-->
       <div class="unslate_co--section section-counter" id="skills-section">
         <div class="container">
           <div class="section-heading-wrap text-center mb-5">
@@ -385,8 +394,8 @@
       <!-- END .counter -->
            
             
-<!--어바웃~포트폴리오 수정_시작-->
-        <div class="unslate_co--section" id="Web-section"><!--id="about-section"~id="portfolio-section"-->
+<!--포트폴리오 영역_시작-->
+        <div class="unslate_co--section" id="portfolio-section"><!--id="about-section"~id="portfolio-section"-->
         <div class="container">
           
           <div class="section-heading-wrap text-center mb-5">
@@ -394,7 +403,7 @@
             <span class="gsap-reveal"><img src="images/divider_br.png" alt="divider" width="76"></span><!--img src="images/divider.png"-->
           </div>
           
-            <!--포트폴리오 웹디자인 작업물(어바웃)1-->
+            <!--웹디자인 작업물1-->
           <div class="row mt-5 justify-content-between">
             <div class="col-lg-7 mb-5 mb-lg-0" data-aos="fade-up">
               <figure class="dotted-bg gsap-reveal-img">
@@ -402,8 +411,8 @@
               </figure>
             </div>
             <div class="col-lg-4 pr-lg-5 padding-top"><!--padding-top추가-->
+             <span class="heading-h3-cap">WEB REDESIGN 01</span><br>
               <h3 class="mb-4 heading-h3">
-              <span class="heading-h3-cap">WEB REDESIGN 01</span>
               <span class="gsap-reveal">경기도박물관</span>
               </h3>
               <p class="lead gsap-reveal">
@@ -420,11 +429,11 @@
             </div>
           </div>
           
-        <!--포트폴리오 웹디자인 작업물(어바웃)2-->
+        <!--웹디자인 작업물2-->
           <div class="row mt-5 justify-content-between  web-margin-top"><!--web-margin-top 추가-->
             <div class="col-lg-4 pr-lg-5 padding-top"><!--padding-top추가-->
+               <span class="heading-h3-cap">WEB REDESIGN 02</span><br>
                 <h3 class="mb-4 heading-h3">
-                <span class="heading-h3-cap">WEB REDESIGN 02</span>
                 <span class="gsap-reveal">밝은눈안과병원</span>
                 </h3>
               <p class="lead gsap-reveal">
@@ -448,7 +457,7 @@
             
           </div>
           
-        <!--포트폴리오 웹디자인 작업물(어바웃)3-->
+        <!--웹디자인 작업물3-->
           <div class="row mt-5 justify-content-between web-margin-top"><!--web-margin-top 추가-->
             <div class="col-lg-7 mb-5 mb-lg-0" data-aos="fade-up">
               <figure class="dotted-bg gsap-reveal-img">
@@ -456,8 +465,8 @@
               </figure>
             </div>
             <div class="col-lg-4 pr-lg-5 padding-top"><!--padding-top추가-->
-              <h3 class="mb-4 heading-h3">
-              <span class="heading-h3-cap">CAFE24 </span><br>
+             <span class="heading-h3-cap">CAFE24 </span><br>
+              <h3 class="mb-4 heading-h3">              
               <span class="gsap-reveal">언커먼아이웨어</span>
               </h3>
               <p class="lead gsap-reveal">
@@ -478,7 +487,7 @@
       </div><!--어바웃~포폴 웹디자인 영역으로 수정_끝-->
             
 
-<!--포폴 그래픽디자인영역_시작-->       
+<!--포폴-비주얼디자인 영역_시작-->       
     <div class="unslate_co--section" id="visual-section">
         <div class="container">          
           
@@ -490,7 +499,7 @@
             <div class="d-flex align-items-center mb-4 gsap-reveal gsap-reveal-filter">
               <h2 class="mr-auto heading-h2">Visual</h2>
               
-              <!--"그래픽디자인 작업물 인덱스"(복원) -->
+              <!--그래픽디자인 작업물 인덱스-->
               <a href="#" class="text-black js-filter d-inline-block d-lg-none">Filter</a>
               
               <div class="filter-wrap">
@@ -504,7 +513,7 @@
               </div>
             </div>
             
-            <!--포폴 그래픽디자인 작업물 리스트1-->
+            <!--그래픽디자인 작업물1-->
             <div id="posts" class="row gutter-isotope-item">
              
              <div class="item branding packaging illustration col-sm-6 col-md-6 col-lg-4 isotope-mb-2">              
@@ -526,7 +535,7 @@
                   </a>
               </div>
               
-              <!--그래픽디자인 작업물 리스트2-->
+              <!--그래픽디자인 작업물2-->
               <div class="item branding packaging illustration col-sm-6 col-md-6 col-lg-4 isotope-mb-2">              
                <a href="images/bi_odd_full.jpg" class="portfolio-item isotope-item gsap-reveal-img" data-fancybox="gallery" data-caption="오드스튜디오 BI">
                
@@ -544,7 +553,7 @@
                   </a>
               </div>
               
-            <!--그래픽디자인 작업물 리스트3-->
+            <!--그래픽디자인 작업물3-->
               <div class="item branding packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
               <a href="images/brochure_odd_md.jpg" class="portfolio-item isotope-item gsap-reveal-img" data-fancybox="gallery" data-caption="오드스튜디오 Leaflet">
                <!--
@@ -561,7 +570,7 @@
                   </a>
               </div>
               
-            <!--그래픽디자인 작업물 리스트4-->
+            <!--그래픽디자인 작업물4-->
               <div class="item web packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
                 <a href="images/cn_kb_md.jpg" class="portfolio-item isotope-item gsap-reveal-img" data-fancybox="gallery" data-caption="별빛야행 Card News"><!--"images/work_4_full.jpg"-->
                     <div class="overlay">
@@ -575,7 +584,7 @@
                   </a>
               </div>
               
-            <!--그래픽디자인 작업물 리스트5-->
+            <!--그래픽디자인 작업물5-->
               <div class="item illustration packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
                 <a href="images/landing_bgn.jpg" class="portfolio-item isotope-item gsap-reveal-img" data-fancybox="gallery" data-caption="밝은눈안과병원 Landing Page"><!--images/work_5_md.jpg-->
                     <div class="overlay">
@@ -589,7 +598,7 @@
                   </a>
               </div>
               
-            <!--그래픽디자인 작업물 리스트6-->
+            <!--그래픽디자인 작업물6-->
               <div class="item illustration packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
                 <a href="images/SDU_mainsd.gif" class="portfolio-item isotope-item gsap-reveal-img" data-fancybox="gallery" data-caption="서울디지털대학교 Main Graphic"><!--images/work_5_md.jpg-->
                     <div class="overlay">
@@ -618,7 +627,8 @@
               </div>
               -->
               
-            <!--그래픽디자인 작업물 리스트7-->
+            <!--그래픽디자인 작업물 임의삭제--
+            <!--그래픽디자인 작업물7--
               <div class="item branding packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
                 <a href="images/work_7_a_md.jpg" class="portfolio-item item-portrait isotope-item gsap-reveal-img" data-fancybox="gallery" data-caption="Modern Building">
                     <div class="overlay">
@@ -632,7 +642,7 @@
                   </a>
               </div>
               
-            <!--그래픽디자인 작업물 리스트8-->
+            <!--그래픽디자인 작업물8--
               <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
                 <a href="https://www.youtube.com/watch?v=mwtbEGNABWU" class="portfolio-item isotope-item gsap-reveal-img" data-fancybox="gallery" data-caption="Showreel 2019">
                     <div class="overlay">
@@ -646,7 +656,7 @@
                   </a>
               </div>
               
-            <!--그래픽디자인 작업물 리스트9-->
+            <!--그래픽디자인 작업물9--
               <div class="item web illustration col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
                 <a href="images/work_9_a_md.jpg" class="portfolio-item isotope-item gsap-reveal-img" data-fancybox="gallery" data-caption="Render Packaging">
                     <div class="overlay">
@@ -659,40 +669,16 @@
                     <img src="images/work_9_a_md.jpg" class="lazyload img-fluid" alt="Images" />
                   </a>
               </div>
+              -->
 
-            </div>
-            
-          </div>
-
-
-        </div>
-      </div><!--포폴 그래픽디자인영역_끝-->
-
-
-<!-- "로고 슬라이더 섹션" 임의삭제 시작  
-      <div class="unslate_co--section">
-        <div class="container">
-          <div class="owl-carousel logo-slider">
-            <div class="logo-v1 gsap-reveal">
-              <img src="images/logo-google.png" alt="Image" class="img-fluid">
-            </div>
-            <div class="logo-v1 gsap-reveal">
-              <img src="images/logo-puma.png" alt="Image" class="img-fluid">
-            </div>
-            <div class="logo-v1 gsap-reveal">
-              <img src="images/logo-paypal.png" alt="Image" class="img-fluid">
-            </div>
-            <div class="logo-v1 gsap-reveal">
-              <img src="images/logo-adobe.png" alt="Image" class="img-fluid">
-            </div>
+            </div>            
           </div>
         </div>
-      </div>-->
-
+      </div><!--포폴-비주얼디자인 영역_끝-->
             
       
-      <!--클라이언트~자기소개 영역_시작-->
-      <div class="unslate_co--section" id="testimonial-section">
+      <!--에필로그 영역_시작-->
+      <div class="unslate_co--section" id="epilogue-section">
         <div class="container">
           <div class="section-heading-wrap text-center mb-5">
             <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Are you looking for a designer?</span></h2>
@@ -705,9 +691,16 @@
                     <div class="testimonial-inner-bg">
                       <span class="quote">&ldquo;</span>
                       <blockquote class="epilogue">
-실패의 가치를 소중히 여기고 함께 성장하는 미래를 그리는 것<br>
-그것이 앞으로 나아가는 디자이너의 자세라고 믿습니다.<br>
-어제보다 오늘, 오늘보다 내일 더 성장하는 디자이너가 되겠습니다.
+						실패의 가치를 소중히 여기고 함께 성장하는 미래를 그리는 것<br>
+						그것이 앞으로 나아가는 디자이너의 자세라고 믿습니다.<br>
+						어제보다 오늘, 오늘보다 내일 더 성장하는 디자이너가 되겠습니다.
+                     <div class="d-block ep-contact"><!--gsap-reveal -->
+                    <!--<span class="d-block ep-contact-info-label">contact</span>-->
+                  <!--<span class="ep-contact-info-label">Email</span>-->
+                  <a href="#" class="ep-contact-info-val">bae.wrk@gmail.com</a><br>
+                  <!--<span class="ep-contact-info-label">Phone</span>-->
+                  <a href="#" class="ep-contact-info-val">010 5627 1413</a>
+                </div>
                       </blockquote>
                     </div>
                     
@@ -719,7 +712,7 @@
 
                   </div>
                 </div>
-              </div><!--클라이언트~자기소개 영역_끝-->
+              </div><!--에필로그 영역_끝-->
        </div>
        </div>
       </div> 
@@ -740,9 +733,9 @@
                 <li><a href="#">Behance</a></li>
               </ul>-->
 
-              <p class="site-copyright">
+              <!--<p class="site-copyright">
                 <small>&copy; 2020 <a href="#">Hyeonju</a>. All Rights Reserved.</small>
-              </p>
+              </p>-->
 
             </div>
           </div>
